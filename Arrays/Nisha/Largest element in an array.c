@@ -1,5 +1,4 @@
 ﻿#include <stdio.h> 
-
 int largest(int arr[], int n)
 {
     int i;
@@ -12,7 +11,6 @@ int largest(int arr[], int n)
 
     return max;
 }
-
 int main()
 {
     int arr[] = { 10, 324, 45, 90, 9808 };
@@ -20,3 +18,6 @@ int main()
     printf("Largest in given array is %d", largest(arr, n));
     return 0;
 }
+
+//Time complexity : O(n)
+//Space complexity : O(1)
