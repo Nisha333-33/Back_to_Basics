@@ -47,3 +47,6 @@ int main()
     getchar();
     return 0;
 }
+
+//Time complexity : O(m+n)
+//Space complexity:O(1)
